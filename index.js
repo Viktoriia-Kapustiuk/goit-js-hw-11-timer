@@ -44,7 +44,7 @@ class Timer {
 
 
 const timer = new Timer({
-    onTick: setClock, selector: '#timer-1', deadline: new Date ('Jun 29, 2021'),
+    onTick: setClock, selector: '#timer-1', deadline: new Date ('Jul 06, 2021'),
 });
 timer.start();
 
